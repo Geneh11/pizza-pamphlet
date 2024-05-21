@@ -1,0 +1,49 @@
+h1 {
+    margin: 0.5em 0.5em 0;
+}
+
+.h-pie {
+    color: #6C757D;
+}
+
+body {
+    background-color: #343A40;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+b {
+    font-size: medium;
+}
+
+.container {
+    border-radius: 15px;
+    padding: 1em;
+    margin: 1em;
+}
+
+.small_pie {
+    background-color: #17A2B8;
+    flex: 1;
+}
+
+.medium_pie {
+    background-color: #28A745;
+    flex: 2;
+}
+
+.large_pie {
+    background-color: #DC3545;
+    flex: 3;
+}
+
+.reach_out {
+    background-color: #6C757D;
+}
+
+@media (min-width: 960px) {
+    .pies {
+        display: flex;
+    }
+}
